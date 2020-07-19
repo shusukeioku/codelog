@@ -83,6 +83,7 @@
         </div>
         <ul>
           <li>Freelance Web Developer</li>
+          <li>Junior Research Fellow, National Defense Academy of Japan</li>
           <li>Research Assistant, Asia-Pacific Initiative</li>
           <li>Research Assistant, Center for Strategic & International Studies</li>
         </ul>
