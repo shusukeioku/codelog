@@ -73,6 +73,15 @@
           <li>Secretary-General Award, Diplomacy Essey Contest, Japan Liberal Democratic Party</li>
         </ul>
         <div>
+          <p><span>Training</span></p>
+        </div>
+        <ul>
+          <li>"Causal Inference for Social Sciences," 2020, ICPSR Summer Program</li>
+          <li>"Multilevel Models II: Advanced Topics," 2020, ICPSR Summer Program</li>
+          <li>"Text Analysis for Social Sciences," 2019, Essex Summer School</li>
+          <li>"Maximum Likelihood," 2018, Essex Summer School</li>
+        </ul>
+        <div>
           <p><span>Skill</span></p>
         </div>
         <ul>
