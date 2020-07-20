@@ -1,6 +1,6 @@
 <template>
   <div 
-    class="w-full flex mx-auto p-5 cursor-pointer hover:bg-gray-100"
+    class="item w-full flex mx-auto p-5 cursor-pointer"
     @click="$router.push('/item/' + item.fields.slug)"
   >
     <div
@@ -26,6 +26,10 @@ export default {
 </script>
 
 <style lang="stylus">
+.item
+  transition all .3s ease-in-out
+.item:hover
+  background rgba(0,0,0,.1)
 .intro
   code
     background #eee

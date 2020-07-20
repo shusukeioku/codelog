@@ -121,6 +121,7 @@ input
   margin-right -400px
   transition .1s all ease-in-out
   box-shadow -3px 0 3px rgba(0,0,0,.05)
+  overflow-y scroll
   @media (max-width 768px) {
     width 80%
     margin-right -80%

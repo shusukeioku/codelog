@@ -90,7 +90,8 @@ export default {
   .shownToc
     margin-left 0
   h2
-    font-size 1.5rem
+    font-size 1.2rem
+    font-weight bold
     margin 3rem 0 .2rem 1rem
     padding 0 0 0 1rem
     position relative
