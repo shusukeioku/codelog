@@ -66,6 +66,9 @@ export default {
 .shownCov
   display block
 .content
+  width 100%
+  max-width 600px
+  margin 0 auto
   .table-of-contents
     position fixed
     top 0
@@ -81,16 +84,17 @@ export default {
     z-index 30
     @media (max-width 768px)
       width 80%
-      margin-right -80%
+      margin-left -80%
     li
       list-style none
   .shownToc
     margin-left 0
   h2
     font-size 1.5rem
-    margin 3rem auto .2rem
-    padding 0 1rem
+    margin 3rem 0 .2rem 1rem
+    padding 0 0 0 1rem
     position relative
+    border-left .3rem solid black
   h3
     font-size .9rem
     font-weight bold
@@ -118,10 +122,6 @@ export default {
   a 
     border-bottom 1px solid black
   img
-    border 1px solid #eee
-    padding .3rem 0
-    width 50%
+    width 100%
     margin 1rem 0
-    @media(max-width 768px)
-      width 100%
 </style>
