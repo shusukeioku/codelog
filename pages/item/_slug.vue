@@ -68,7 +68,7 @@ export default {
 .content
   width 100%
   max-width 600px
-  margin 0 auto
+  margin 0 auto 5rem
   .table-of-contents
     position fixed
     top 0
@@ -92,9 +92,11 @@ export default {
     li
       list-style none
       font-weight bold
+      font-size 1rem
       li
         list-style circle
         font-weight normal
+        font-size .9rem
   .shownToc
     margin-left 0
   h2
@@ -107,8 +109,8 @@ export default {
   h3
     font-size .9rem
     font-weight bold
-    margin 1rem 0 .2rem
-    padding 0 1rem
+    margin 1.5rem 1rem .2rem
+    border-bottom 1px solid rgba(0,0,0,.1)
   p
     margin 1rem 0
     padding 0 1rem
@@ -119,6 +121,7 @@ export default {
     list-style circle
     margin-left 2.8rem
     line-height 1.5rem
+    font-size .9rem
   pre
     background #eee
     padding 1rem
