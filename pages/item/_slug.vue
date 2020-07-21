@@ -85,8 +85,16 @@ export default {
     @media (max-width 768px)
       width 80%
       margin-left -80%
+    a
+      border-bottom 0
+    ul, ol
+      margin 0
     li
       list-style none
+      font-weight bold
+      li
+        list-style circle
+        font-weight normal
   .shownToc
     margin-left 0
   h2
@@ -104,10 +112,13 @@ export default {
   p
     margin 1rem 0
     padding 0 1rem
-    line-height 1.5rem
+    line-height 1.6rem
+  ul, ol 
+    margin-top -.5rem
   li
     list-style circle
-    margin-left 2.5rem
+    margin-left 2.8rem
+    line-height 1.5rem
   pre
     background #eee
     padding 1rem
